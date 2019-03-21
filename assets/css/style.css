@@ -1,0 +1,48 @@
+.files{ 
+    position:relative;
+    border: 3px dashed #0142fe;
+    text-align: center;
+    margin: 0;
+    width: 100% !important;
+    height:250px;
+    overflow:hidden;
+}
+
+.files input {
+    width: 100% !important;
+    height:200px;
+    border:none;
+    padding:0;
+    background:transparent;
+    text-align:center;
+}
+
+.files{ position:relative}
+
+.files:after {
+    pointer-events: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 70px;
+    right: 0;
+    height: 70px;
+    content: "";
+    background-image: url(https://image.flaticon.com/icons/svg/130/130993.svg);
+    display: block;
+    margin: 0 auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.files:before {
+  content:"Browse or Drag file here";
+  position:absolute;
+  bottom:55px;;
+  left:0;
+  right:0;
+  display:block;
+  text-align:center;
+  color:#0142fe;
+  font-weight:bold;
+}
